@@ -4,6 +4,13 @@
 *
 */
 
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
 html,
 body {
   height: 100%;

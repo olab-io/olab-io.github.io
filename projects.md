@@ -4,4 +4,6 @@ title: openLab Projects
 css: projects
 ---
 
-<p>hi</p>
+<p>Here are the projects</p>
+
+
