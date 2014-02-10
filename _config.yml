@@ -28,6 +28,7 @@ prose:
       - name: "layout"
         field:
           element: "text"
+          label: "Layout"
           value: "post"
       - name: "title"
         field:
