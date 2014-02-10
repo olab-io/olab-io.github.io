@@ -81,11 +81,11 @@ h1.cover-heading{
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
   h1.cover-heading{
-	font-size: 6em;
-}
-.img{
-margin:0 2em 0 2em;
-}
+	 font-size: 6em;
+  }
+  .img{
+    margin:0 2em 0 2em;
+  }
 }
 
 @media (min-width: 992px) {

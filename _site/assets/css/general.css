@@ -14,16 +14,30 @@ body {
   color: #F15D22;
   text-align: center;
   font-family: Tahoma, Verdana, Arial, sans-serif;
-}
-
-.the-resources {
-	background-color: #F15D22;
+  padding-top: 56px;
 }
 
 /* Splash img */
 .img-responsive {
 	text-align: center;
 	display: inline;
+}
+
+/* Page */
+
+.page-title {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* Resource Page */
+
+.the-resources {
+	background-color: #F15D22;
+}
+
+.resource-extras {
+	padding-top: 50px;
 }
 
 /* Links */
@@ -42,11 +56,6 @@ a:hover {
 .navbar-default {
 	background-color: #f59221;
 	border-color: #f59221;
-	text-align: center;
-}
-
-.navbar-default .navbar-collapse{
-	text-align: center;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -86,4 +95,27 @@ color: #F15D22;
 .navbar-default .navbar-toggle:focus {
 	color: #fff;
 	background-color: #f59221;
+}
+
+/*
+ * this
+ */
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+	.navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    .col-md-offset-4 {
+		margin-left: 39%;
+	}
 }
