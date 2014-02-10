@@ -25,6 +25,10 @@ prose:
         field:
           element: "hidden"
           value: "projects"
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
       - name: "layout"
         field:
           element: "text"

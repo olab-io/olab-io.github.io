@@ -11,6 +11,11 @@ callback([
   } ,
 
   {
+    "text": "prose test",
+    "href": "//projects/2014/02/09/prose-test/"
+  } ,
+
+  {
     "text": "Bike",
     "href": "//projects/2014/02/09/bike/"
   } 

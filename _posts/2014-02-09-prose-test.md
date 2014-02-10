@@ -1,7 +1,7 @@
 ---
 css: general
 category: projects
-published: false
+published: true
 title: prose test
 layout: post
 splash: "https://www.google.com/images/srpr/logo11w.png"
