@@ -1,12 +1,19 @@
+#main jekyll config
 name: "olab"
 description: "OpenLab at SAIC"
 
 url: "http://localhost:4000"
-paginate: 10
 markdown: rdiscount
 permalink: pretty
 pygments: true
 
+paginate: 2          # Posts per page on the blog index
+pagination_dir: /projects/index.html      # Directory base for pagination URLs
+paginate_path: "projects/page:num"
+recent_posts: 1      # Posts in the Recent Posts section
+excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
+
+#prose
 prose:
   rooturl: '_posts'
   siteurl: 'http://localhost:4000'
