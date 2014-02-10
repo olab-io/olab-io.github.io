@@ -13,13 +13,12 @@ css: index
         	<div class="inner cover">
         		
             	<div class="cover-heading"><img src="/assets/img/olab-identity-white.png" class="img-responsive"></div>
-            	<p class="lead">Goal / Mission</p>
-            	<p><small>Some pithy text here about how great and awesome this thing is. World saved.</small></p>
+            </br></br>
+            	<h4>A catalyst for open practices at SAIC.</h4>
           	</div>
-
         </div>
         <div class="row">
-	         	<div class="col-md-1 col-md-offset-3 index-links">
+	         	<div class="col-md-1 col-md-offset-4 index-links">
 	         		<a href="/projects"><img src="/assets/img/olab-mark.gif" width="80px"></a>
 	         		<p><small><a href="/projects">Projects</a></small></p>
 	         	</div>
@@ -35,14 +34,7 @@ css: index
 	         		<a href="/members"><img src="/assets/img/olab-mark.gif" width="80px"></a>
 	         		<p><small><a href="/members">Members</a></small></p>
 	         	</div>
-	         	<div class="col-md-1 index-links">
-	         		<a href="/connect"><img src="/assets/img/olab-mark.gif" width="80px"></a>
-	         		<p><small><a href="/connect">Connect</a></small></p>
-	         	</div>
-	         	<div class="col-md-1 index-links">
-	         		<a href="/complain"><img src="/assets/img/olab-mark.gif" width="80px"></a>
-	         		<p><small>Complain</small></p>
-	         	</div>
+
 		</div>
       </div>
 

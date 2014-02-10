@@ -13,7 +13,7 @@ body {
 body {
   color: #F15D22;
   text-align: center;
-  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
   padding-top: 56px;
 }
 
@@ -78,7 +78,7 @@ color: #F15D22;
 
 .navbar .brand {
   background-color: #f59221;
-  margin-left: 0px;
+  text-align: center;
 }
 
 .navbar-collapse{
