@@ -1,6 +1,6 @@
 name: "olab"
 description: "OpenLab at SAIC"
-baseurl: /olab-io.github.io
+
 url: "http://localhost:4000"
 paginate: 10
 markdown: rdiscount
