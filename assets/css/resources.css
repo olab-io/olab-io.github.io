@@ -1,6 +1,6 @@
 /*
 *
-* Custom styles for the openLab Projects page 
+* Custom styles for the openLab Resources page 
 *
 */
 
@@ -16,10 +16,21 @@ body {
   font-family: Tahoma, Verdana, Arial, sans-serif;
 }
 
-.projects {
-  padding: 40px 15px;
-  text-align: center;
+.the-resources {
+	background-color: #F15D22;
 }
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #F15D22;
+}
+
+.everything{
+	text-align: left;
+}
+
 
 /* Navigation */
 

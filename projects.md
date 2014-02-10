@@ -4,6 +4,14 @@ title: openLab Projects
 css: projects
 ---
 
-<p>Here are the projects</p>
-
-
+<ul class="list-unstyled">
+    {% for post in site.posts %}
+    {% assign author = site.authors[post.author] %}
+    <!-- <img class="img-circle" src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=30&d=identicon"/> -->
+    <li>
+        {{ post.date | date_to_string }} - {{ post.author }} :
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <small><em>{{ post.tags | array_to_sentence_string }}</em></small>
+    </li>
+    {% endfor %}
+</ul>	
