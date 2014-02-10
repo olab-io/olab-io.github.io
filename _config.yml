@@ -27,8 +27,8 @@ prose:
           value: "projects"
       - name: "layout"
         field:
-          element: "hidden"
-          value: "projects"
+          element: "text"
+          value: "post"
       - name: "title"
         field:
           element: "text"
@@ -39,6 +39,11 @@ prose:
           element: "text"
           label: "Splash image"
           value: ""
+      - name: "css"
+        field:
+          element: "hidden"
+          label: "css"
+          value: "general"
       - name: "tags"
         field:
           element: "multiselect"
