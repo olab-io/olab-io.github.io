@@ -7,7 +7,12 @@ callback([
 
   {
     "text": "First Test Post",
-    "href": "//2014/02/09/notandrewkaye-test-post/"
+    "href": "//projects/2014/02/09/notandrewkaye-test-post/"
+  } ,
+
+  {
+    "text": "Bike",
+    "href": "//projects/2014/02/09/bike/"
   } 
 
 ])

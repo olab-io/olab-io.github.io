@@ -8,10 +8,42 @@ css: general
     {% for post in site.posts %}
     {% assign author = site.authors[post.author] %}
     <!-- <img class="img-circle" src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=30&d=identicon"/> -->
+    <li><h2><a href="{{ post.url }}">{{ post.title }}</a></h2></li>
     <li>
-        {{ post.date | date_to_string }} - {{ post.author }} :
-        <a href="{{ post.url }}">{{ post.title }}</a>
+		{% if post.splash %}
+		  {% if post.splash contains 'http' %}
+		    {% capture url %}{{post.splash}}{% endcapture %}
+		  {% else %}
+		    {% capture url %}{{post.splash}}/{% endcapture %}
+		  {% endif %}
+
+		  <div class='container'>
+		    <a href="{{ post.url }}"><img src='{{url}}' class="img-responsive" alt='' /></a>
+		  </div>
+		{% endif %}
+</li>
+    <li class="text-left">
+        {{ post.date | date_to_string }} - {{ post.author }}
         <small><em>{{ post.tags | array_to_sentence_string }}</em></small>
     </li>
     {% endfor %}
-</ul>	
+</ul>
+
+
+<!-- organize by category
+
+
+<div class='container'>
+  {% for item in site.categories.projects limit:1000 %}
+    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+
+    {% if date != ndate %}
+      <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
+    {% endif %}
+    <h2><a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a><h2> <span class='date'><small>{{item.date | date:"%b %d"}}</small></span>
+
+  {% endfor %}
+</div>
+
+-->

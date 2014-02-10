@@ -3,6 +3,7 @@ layout: post
 title: "First Test Post"
 author: Andrew Kaye
 date: 2014-02-09 00:00:02
+category: projects
 css: general
 splash: http://placehold.it/1600x500
 ---

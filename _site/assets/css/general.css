@@ -20,17 +20,18 @@ body {
 	background-color: #F15D22;
 }
 
+/* Splash img */
+.img-responsive {
+	text-align: center;
+	display: inline;
+}
+
 /* Links */
 a,
 a:focus,
 a:hover {
   color: #F15D22;
 }
-
-.everything{
-	text-align: left;
-}
-
 
 /* Navigation */
 

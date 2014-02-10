@@ -8,7 +8,7 @@ layout: default
   {% if page.splash contains 'http' %}
     {% capture url %}{{page.splash}}{% endcapture %}
   {% else %}
-    {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %}
+    {% capture url %}{{page.splash}}/{% endcapture %}
   {% endif %}
 
   <div class='splash'>
@@ -24,7 +24,7 @@ layout: default
   			</h1>
   			<small>{{ page.date | date_to_string }} - {{ page.author }}{{ page.tags | array_to_sentence_string }}</small>
 
-  			<div class="container">
+  			<div class="container text-left">
     			{{ content }}
     		</div>
   		</div>
