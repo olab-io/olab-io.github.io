@@ -1,7 +1,7 @@
 ---
 layout: page
-title: openLab Events
-css: events
+title: "openLab Events"
+css: general
 ---
 
 Here are the events

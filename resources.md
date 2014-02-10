@@ -1,7 +1,7 @@
 ---
 layout: page
-title: openLab Resources
-css: resources
+title: "openLab Resources"
+css: general
 ---
 
 Here are the resources

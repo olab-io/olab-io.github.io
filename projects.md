@@ -1,7 +1,7 @@
 ---
 layout: page
-title: openLab Projects
-css: projects
+title: "openLab Projects"
+css: general
 ---
 
 <ul class="list-unstyled">

@@ -3,7 +3,7 @@ layout: post
 title: "Second Test Post"
 author: Andrew Kaye
 date: 2014-02-09 00:00:00
-css: projects
+css: general
 ---
 
 Happy Project Title
