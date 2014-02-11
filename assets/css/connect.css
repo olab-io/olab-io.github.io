@@ -28,18 +28,29 @@ body {
 /* Page */
 
 .page-title {
+	color: #FF7500;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
-/* Resource Page */
-
-.the-resources {
-	background-color: #FF7500;
+.row .img{
+	text-align: center;
 }
 
-.resource-extras {
-	padding-top: 50px;
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.index-links{
+	margin-top: 40px;
+}
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
 }
 
 /* Links */
@@ -108,7 +119,14 @@ color: #FF7500;
  */
 
 @media (min-width: 768px) {
-	text-align: 
+	.navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
 }
 
 @media (min-width: 992px) {
@@ -120,8 +138,4 @@ color: #FF7500;
     .navbar .navbar-collapse {
         text-align: center;
     }
-
-    .col-md-offset-4 {
-		margin-left: 39%;
-	}
 }
