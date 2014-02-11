@@ -97,12 +97,16 @@ color: #F15D22;
 	background-color: #f59221;
 }
 
+.members {
+	text-align: center;
+}
+
 /*
  * this
  */
 
 @media (min-width: 768px) {
-
+	text-align: 
 }
 
 @media (min-width: 992px) {

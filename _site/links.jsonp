@@ -23,6 +23,16 @@ callback([
   {
     "text": "Bike",
     "href": "//projects/2014/02/09/bike/"
+  } ,
+
+  {
+    "text": "my project",
+    "href": "//projects/2014/02/10/my-project/"
+  } ,
+
+  {
+    "text": "This is my Project",
+    "href": "//projects/2014/02/10/this-is-my-project/"
   } 
 
 ])

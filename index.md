@@ -14,7 +14,7 @@ css: index
         		
             	<div class="cover-heading"><img src="/assets/img/olab-identity-white.png" class="img-responsive"></div>
             </br></br>
-            	<h4>A catalyst for open practices at SAIC.</h4>
+            	<h4>A catalyst for open practices at <a href="http://saic.edu">SAIC</a></h4>
           	</div>
         </div>
         <div class="row">
