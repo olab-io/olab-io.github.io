@@ -56,8 +56,8 @@ a:hover {
 }
 
 .navbar-default {
-	background-color: #FDD200;
-	border-color: #FDD200;
+	background-color: #FF7500;
+	border-color: #FF7500;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -66,11 +66,11 @@ a:hover {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	color: #fff;
-	background-color: #FDD200;
+	background-color: #FF7500;
 }
 
 .navbar-default .navbar-nav > li > a {
-color: #FF7500;
+color: #FDD200;
 }
 
 .nav > li > a,
@@ -79,7 +79,7 @@ color: #FF7500;
 }
 
 .navbar .brand {
-  background-color: #FDD200;
+  background-color: #FF7500;
   text-align: center;
 }
 
@@ -90,13 +90,13 @@ color: #FF7500;
 
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle .icon-bar {
-	border-color: #FDD200;
+	border-color: #FF7500;
 }
 
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
 	color: #fff;
-	background-color: #FDD200;
+	background-color: #FF7500;
 }
 
 .members {
