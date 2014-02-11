@@ -2,6 +2,7 @@
 *
 * Custom styles for openLab
 *
+* #FF7500 // Primary \\\\ #FDD200 // Highlights
 */
 
 html,
@@ -11,7 +12,7 @@ body {
 }
 
 body {
-  color: #F15D22;
+  color: #FF7500;
   text-align: center;
   font-size: 16px;
   font-family: Verdana, Helvetica, Arial, sans-serif;
@@ -34,7 +35,7 @@ body {
 /* Resource Page */
 
 .the-resources {
-	background-color: #F15D22;
+	background-color: #FF7500;
 }
 
 .resource-extras {
@@ -45,7 +46,7 @@ body {
 a,
 a:focus,
 a:hover {
-  color: #F15D22;
+  color: #FF7500;
 }
 
 /* Navigation */
@@ -55,8 +56,8 @@ a:hover {
 }
 
 .navbar-default {
-	background-color: #f59221;
-	border-color: #f59221;
+	background-color: #FDD200;
+	border-color: #FDD200;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -65,11 +66,11 @@ a:hover {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	color: #fff;
-	background-color: #f59221;
+	background-color: #FDD200;
 }
 
 .navbar-default .navbar-nav > li > a {
-color: #F15D22;
+color: #FF7500;
 }
 
 .nav > li > a,
@@ -78,7 +79,7 @@ color: #F15D22;
 }
 
 .navbar .brand {
-  background-color: #f59221;
+  background-color: #FDD200;
   text-align: center;
 }
 
@@ -89,13 +90,13 @@ color: #F15D22;
 
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle .icon-bar {
-	border-color: #f59221;
+	border-color: #FDD200;
 }
 
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
 	color: #fff;
-	background-color: #f59221;
+	background-color: #FDD200;
 }
 
 .members {
