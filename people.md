@@ -6,25 +6,20 @@ css: general
 
 <div class="row">
 	<div class="col-md-6 members">
-		<h4>SAIC</h4>
-		<p><a href="http://github.com/bakercp">Christopher Baker</a></p>
-		<p><a href="http://github.com/notandrewkaye">Andrew Kaye</a></p>
-		<p><a href="http://github.com/brannondorsey">Brannon Dorsey</a></p>
-		<p><a href="http://github.com/magplease">Magdalena Wistuba</a></p>
-		<p><a href="http://github.com/mperez4">Miguel Perez</a></p>
-		<p><a href="#">Andrew Monks</a></p>
-		<p>alpha</p>
-		<p>beta</p>
+		<h3>SAIC</h3>
+		<p><a href="http://christopherbaker.net/">Christopher Baker</a></p>
+		<p><a href="http://notandrewkaye.com">Andrew Kaye</a></p>
+		<p><a href="http://brannondorsey.com">Brannon Dorsey</a></p>
+		<p><a href="http://magdalenawistuba.com/">Magdalena Wistuba</a></p>
+		<p><a href="http://www.lvaqi.org/">Miguel Perez</a></p>
+		<p><a href="http://monks.co/">Andrew Monks</a></p>
 	</div>
+
 	<div class="col-md-6 members">
-		<h4>Partners</h4>
-		<p>OpenFrameworks</p>
-		<p>Raspberry Pi</p>
-		<p>SAIC</p>
-		<p>Coffee</p>
-		<p>yeta</p>
-		<p>zeta</p>
-		<p>yeta</p>
-		<p>zeta</p>
+		<h3>Partners</h3>
+		<p><a href="http://openframeworks.cc">OpenFrameworks</a></p>
+		<p><a href="http://www.raspberrypi.org/">Raspberry Pi</a></p>
+		<p><a href="http://www.saic.edu/index.html">SAIC</a></p>
+		<p><a href="http://en.wikipedia.org/wiki/Coffee">Coffee</a></p>
 	</div>
 </div>
