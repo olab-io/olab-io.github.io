@@ -8,17 +8,27 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand text-left" href="/"><img src="/assets/img/olab-mark.gif" width="30px"></a>
+          <a class="navbar-brand text-left" href="/">
+            <img src="/assets/img/olab-mark.gif" width="30px">
+          </a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class='{% if page.title == "openLab Projects" %}active{% endif %}'><a href="/projects">Projects</a></li>
+            <li class='{% if page.title == "openLab Projects" %}active{% endif %}'>
+              <a href="/projects">Projects</a>
+            </li>
               <!-- Resources will be back!
               <li class='{% if page.title == "openLab Resources" %}active{% endif %}'><a href="/resources">Resources</a></li>
               -->
-              <li class='{% if page.title == "openLab Events" %}active{% endif %}'><a href="/events">Events</a></li>
-              <li class='{% if page.title == "People" %}active{% endif %}'><a href="/people">People</a></li>
-              <li class='{% if page.title == "Connect" %}active{% endif %}'><a href="/connect">Connect</a></li>
+              <li class='{% if page.title == "openLab Events" %}active{% endif %}'>
+                <a href="/events">Events</a>
+              </li>
+              <li class='{% if page.title == "People" %}active{% endif %}'>
+                <a href="/people">People</a>
+              </li>
+              <li class='{% if page.title == "Connect" %}active{% endif %}'>
+                <a href="/connect">Connect</a>
+              </li>
           </ul>
         </div><!--/.nav-collapse -->
     </div>

@@ -1,8 +1,19 @@
-	<!-- Bootstrap core JavaScript
+    <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+
+    {% if page.js %}
+    <script src="/assets/js/{{ page.js }}.js"></script>
+    {% endif %}
+
+    <!-- include any mustache templates after the js -->
+    {% for template in page.templates %}
+    {% include {{template}} %}
+    {% endfor %}
+
   </body>
 </html>
 
