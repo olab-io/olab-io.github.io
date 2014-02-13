@@ -1,0 +1,66 @@
+---
+layout: page
+title: "openLab Resources"
+css: general
+---
+
+<div class="row the-resources">
+ 	<div class="col-md-2  index-links">
+ 		<a href="#"><img src="/assets/img/olab-mark.gif" width="80px"></a>
+ 		<p><small><a href="#">GitHub</a></small></p>
+ 	</div>
+ 	<div class="col-md-2 index-links">
+ 		<a href="#"><img src="/assets/img/olab-mark.gif" width="80px"></a>
+ 		<p><small><a href="#">Data</a></small></p>
+ 	</div>
+ 	<div class="col-md-2 index-links">
+ 		<a href="#"><img src="/assets/img/olab-mark.gif" width="80px"></a>
+ 		<p><small><a href="#">Sound</a></small></p>
+ 	</div>
+ 	<div class="col-md-2 index-links">
+ 		<a href="#"><img src="/assets/img/olab-mark.gif" width="80px"></a>
+ 		<p><small><a href="#">Diagrams</a></small></p>
+ 	</div>
+ 	<div class="col-md-2 index-links">
+ 		<a href="#"><img src="/assets/img/olab-mark.gif" width="80px"></a>
+ 		<p><small><a href="#">Other</a></small></p>
+ 	</div>
+ 	<div class="col-md-2 index-links">
+ 		<a href="#"><img src="/assets/img/olab-mark.gif" width="80px"></a>
+ 		<p><small>Stuff</small></p>
+ 	</div>
+</div>
+
+<div class="row resource-extras">
+	<div class="col-md-4 col-md-offset-8">
+		<p class="lead text-left">
+			All of Everything
+		</p>
+	</div>
+</div>
+
+<div class="row everything">
+	<div class="col-md-2 col-md-offset-8 text-left">
+		<p>alpha</p>
+		<p>beta</p>
+		<p>alpha</p>
+		<p>beta</p>
+		<p>alpha</p>
+		<p>beta</p>
+		<p>alpha</p>
+		<p>beta</p>
+	</div>
+	<div class="col-md-2 text-left">
+		<p>yeta</p>
+		<p>zeta</p>
+		<p>yeta</p>
+		<p>zeta</p>
+		<p>yeta</p>
+		<p>zeta</p>
+		<p>yeta</p>
+		<p>zeta</p>
+	</div>
+</div>
+
+
+
