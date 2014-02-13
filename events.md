@@ -2,7 +2,20 @@
 layout: page
 title: "openLab Events"
 css: general
+js: events
+templates: [events.tmpl]
 ---
+
+
+
+<h2>Events</h2>
+<ul id="events">
+</ul>
+
+
+
+
+
 
 ###_March 1, 2014_
 _Kib.io Workshop_
