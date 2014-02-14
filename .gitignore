@@ -1,2 +1,4 @@
+ assets/img/.DS_Storey
+*.DS_Store
 .DS_Store
 _site/*
