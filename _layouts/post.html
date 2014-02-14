@@ -14,7 +14,7 @@ layout: default
   {% if page.splash contains 'http' %}
     {% capture url %}{{page.splash}}{% endcapture %}
   {% else %}
-    {% capture url %}{{page.splash}}/{% endcapture %}
+    {% capture url %}{{page.splash}}{% endcapture %}
   {% endif %}
 
   <div class='splash'>
