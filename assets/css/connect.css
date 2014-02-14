@@ -67,8 +67,11 @@ a:hover {
 }
 
 .navbar-default {
-	background-color: #FDD200;
-	border-color: #FDD200;
+	background-color: #FF7500;
+	border-color: #FF7500;
+}
+.navbar li img {
+  width: 25px;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -76,12 +79,12 @@ a:hover {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #fff;
-	background-color: #FDD200;
+	color: #FDD200;
+	background-color: #FF7500;
 }
 
 .navbar-default .navbar-nav > li > a {
-color: #FF7500;
+  color: #fff;
 }
 
 .nav > li > a,
