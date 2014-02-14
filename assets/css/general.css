@@ -32,14 +32,22 @@ h1 a, h2 a, h3 a, h4 a {
 /* Page */
 
 .page-title {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 /* Project Posts */
+.post-content {
+	padding: 45px 0px;
+}
+
 .post-content img {
 	width: 80%;
 	margin: auto;
+}
+
+.project-title {
+	padding: 10px 0px 20px 0px;
 }
 
 /* Resource Page */
