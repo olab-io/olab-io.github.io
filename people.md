@@ -7,7 +7,7 @@ css: general
 <ul class="list-inline">
 {% for person in site.data.people %}
 <li>
-	<a href="http://talk.olab.io/users/{{person.username}}">
+	<a href="http://talk.olab.io/users/{{person.username}}/activity">
 		<img src="{{person.avatar}}" alt="{{person.username}}" class="img-circle"/>
 	</a>
 </li>
