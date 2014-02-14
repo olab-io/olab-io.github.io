@@ -8,8 +8,11 @@
     <link rel='shortcut icon' href='{{site.baseurl}}/assets/img/favicon.ico' type='image/x-icon'/>
 
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="/assets/css/{{page.css|default:"general"}}.css" type="text/css"/>
-
+    {% if page.css %}
+      <link rel="stylesheet" href="/assets/css/{{page.css}}.css" type="text/css"/>
+    {% else %}
+      <link rel="stylesheet" href="/assets/css/general.css" type="text/css"/>
+    {% endif %}
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></sc\
