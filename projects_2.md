@@ -8,6 +8,6 @@ setMustachDelimiter: "{{=<% %>=}}"
 unsetMustachDelimiter: "<%={{ }}=%>"
 ---
 
-<ul id="projects">
+<div id="projects">
 	<em>Loading...</em>
-</ul>
+</div>
