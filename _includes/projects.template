@@ -1,0 +1,10 @@
+<script id="projects_template" type="text/template">
+{{page.setMustachDelimiter}}
+	<%#projects%>
+		<li>
+			<a href="<%link%>"><%title%></a>
+			<img src="<%image%>" />
+		</li>
+	<%/projects%>
+{{page.unsetMustachDelimiter}}
+</script>
