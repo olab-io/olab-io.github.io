@@ -1,14 +1,18 @@
 $( document ).ready(function() {
-    console.log("hellooo");
-  // Handler for .ready() called.
+
+    // grab the events json from talk.olab.io
     $.getJSON('http://talk.olab.io/category/events.json', function(data) {
+        // make a few empty arrays
         var upcomingEventsArray = new Array();
         var pastEventsArray = new Array();
 
+        // cycle through the topics list from talk
         $.each(data.topic_list.topics, function(i, item) {
 
+            // ignore things that aren't category markers
             if (item.slug != "open-lab-events")
             {
+                // try to extract a date from the title.
                 var title = item.title;
 
                 if (title.charAt(0) == '[')
@@ -21,39 +25,40 @@ $( document ).ready(function() {
 
                     if (date.isValid())
                     {
+                        // here's an arbitrary collection of event data
                         var event = new Object();
                         event.title = title;
                         event.link = link;
                         event.date = date;
                         event.date_string = date.format("MMMM Do YYYY");
-                        event.image = image;
+                        event.image = image; // this will be full for some posts
 
                         if (date.isAfter())
                         {
+                            // add date to upcoming array
                             upcomingEventsArray.push(event);
                         }
                         else
                         {
+                            // it's old, so add it to the old array
                             pastEventsArray.push(event);
                         }
                     }
                 }
                 else
                 {
-                    console.log("No date:");
-                    console.log(item);
-                    // no formatted date
+                    // date was not in the title or could not be extracted. skipping.
                 }
             }
 
         });
 
-        // sort asc            
+        // sort the event arrays            
         upcomingEventsArray.sort(function(a,b) {
             return a.date - b.date;
         });
 
-        // sort desc
+        // sort the event arrays in the other direction          
         pastEventsArray.sort(function(a,b) {
             return b.date - a.date;
         });
