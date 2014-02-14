@@ -39,6 +39,7 @@ h1.cover-heading{
   height: 100%; /* For at least Firefox */
   min-height: 100%;
 }
+
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
@@ -47,6 +48,7 @@ h1.cover-heading{
 .cover-container {
   margin-left: auto;
   margin-right: auto;
+  padding-top: 40px;
 }
 
 /* Padding for spacing */
