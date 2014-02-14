@@ -1,0 +1,7 @@
+<script id="events_template" type="text/template">
+{{page.setMustachDelimiter}}
+	<%#events%>
+		<li><%date_string%> : <a href="<%link%>"><%title%></a></li>
+	<%/events%>
+{{page.unsetMustachDelimiter}}
+</script>
