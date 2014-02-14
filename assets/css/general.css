@@ -76,12 +76,16 @@ a:hover {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #fff;
+	color: #FDD200;
 	background-color: #FF7500;
 }
 
+.navbar li img {
+	width: 25px;
+}
+
 .navbar-default .navbar-nav > li > a {
-color: #FDD200;
+color: #fff;
 }
 
 .nav > li > a,
@@ -106,7 +110,7 @@ color: #FDD200;
 
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
-	color: #fff;
+	color: #FDD200;
 	background-color: #FF7500;
 }
 
