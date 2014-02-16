@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
     // grab the events json from talk.olab.io
-    $.getJSON('http://talk.olab.io/category/projects.json', function(data) {
+    $.getJSON('https://talk.olab.io/category/projects.json', function(data) {
         // make a few empty arrays
         var projectsArray = new Array();
 
