@@ -1,14 +1,14 @@
 $( document ).ready(function() {
 
     // grab the events json from talk.olab.io
-    $.getJSON('https://talk.olab.io/category/projects.json', function(data) {
+    $.getJSON('https://talk.olab.io/category/openlab-projects.json', function(data) {
         // make a few empty arrays
         var projectsArray = new Array();
 
         // cycle through the topics list from talk
         $.each(data.topic_list.topics, function(i, item) {
 
-            if (item.slug != "open-projects")
+            if (item.slug != "openlab-projects")
             {
                 var project = new Object();
                 project.title = item.title;

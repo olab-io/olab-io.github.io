@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
     // grab the events json from talk.olab.io
-    $.getJSON('https://talk.olab.io/category/events.json', function(data) {
+    $.getJSON('https://talk.olab.io/category/openlab-events.json', function(data) {
         // make a few empty arrays
         var upcomingEventsArray = new Array();
         var pastEventsArray = new Array();
@@ -10,7 +10,7 @@ $( document ).ready(function() {
         $.each(data.topic_list.topics, function(i, item) {
 
             // ignore things that aren't category markers
-            if (item.slug != "open-lab-events")
+            if (item.slug != "openlab-events")
             {
                 // try to extract a date from the title.
                 var title = item.title;
