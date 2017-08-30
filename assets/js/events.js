@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
     // grab the events json from talk.olab.io
-    $.getJSON('http://talk.olab.io/category/openlab-events.json', function(data) {
+    $.getJSON('https://talk.olab.io/category/openlab-events.json', function(data) {
         // make a few empty arrays
         var upcomingEventsArray = new Array();
         var pastEventsArray = new Array();
@@ -19,9 +19,9 @@ $( document ).ready(function() {
                 {
                     var date = moment(title.substring(1, title.indexOf(']',2)));
                     var title = title.substring(title.indexOf(']',2)+2);
-                    var link = "http://talk.olab.io/t/" + item.slug;
+                    var link = "https://talk.olab.io/t/" + item.slug;
 
-                    var image = item.image_url != null ? "http://talk.olab.io/" + item.image_url : null;
+                    var image = item.image_url != null ? "https://talk.olab.io/" + item.image_url : null;
 
                     if (date.isValid())
                     {
@@ -53,12 +53,12 @@ $( document ).ready(function() {
 
         });
 
-        // sort the event arrays            
+        // sort the event arrays
         upcomingEventsArray.sort(function(a,b) {
             return a.date - b.date;
         });
 
-        // sort the event arrays in the other direction          
+        // sort the event arrays in the other direction
         pastEventsArray.sort(function(a,b) {
             return b.date - a.date;
         });
