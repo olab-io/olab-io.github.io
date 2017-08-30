@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
     // grab the events json from talk.olab.io
-    $.getJSON('http://talk.olab.io/category/openlab-projects.json', function(data) {
+    $.getJSON('https://talk.olab.io/category/openlab-projects.json', function(data) {
         // make a few empty arrays
         var projectsArray = new Array();
 
@@ -12,8 +12,8 @@ $( document ).ready(function() {
             {
                 var project = new Object();
                 project.title = item.title;
-                project.link = "http://talk.olab.io/t/" + item.slug + "/" + item.id;
-                project.image = "http://talk.olab.io" + item.image_url;
+                project.link = "https://talk.olab.io/t/" + item.slug + "/" + item.id;
+                project.image = "https://talk.olab.io" + item.image_url;
                 projectsArray.push(project);
             }
         });
