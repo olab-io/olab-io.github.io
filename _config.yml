@@ -1,65 +1,7 @@
-#main jekyll config
 name: "olab"
 description: "OpenLab at SAIC"
-
-url: "http://localhost:4000"
-markdown: rdiscount
-permalink: pretty
-pygments: true
-
-paginate: 2          # Posts per page on the blog index
-pagination_dir: /projects/index.html      # Directory base for pagination URLs
-paginate_path: "projects/page:num"
-recent_posts: 1      # Posts in the Recent Posts section
-excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
-
-#prose
-prose:
-  rooturl: '_posts'
-  siteurl: 'http://localhost:4000'
-  relativeLinks: 'http://localhost:4000/links.jsonp'
-  media: 'media'
-  metadata:
-    _posts:
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "projects"
-      - name: "published"
-        field:
-          element: "hidden"
-          value: "true"
-      - name: "layout"
-        field:
-          element: "text"
-          label: "Layout"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "splash"
-        field:
-          element: "text"
-          label: "Splash image"
-          value: ""
-      - name: "css"
-        field:
-          element: "hidden"
-          label: "css"
-          value: "general"
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Open Source"
-              value: "open_source"
-            - name: "Art"
-              value: "art"
-            - name: "openFrameworks"
-              value: "openframeworks"
-            - name: "otherTag"
-              value: "othertag"
+timezone: America/Chicago
+url: http://olab.io
+plugins:
+    - jekyll-sitemap
+highlighter: rouge
